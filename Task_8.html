@@ -51,6 +51,26 @@
             background-image: url(mount.webp);
             background-size: cover;
         } 
+
+        @media screen and (max-width: 768px) {
+  .i8 {
+    background-color: rgb(221, 16, 84);
+  }
+}
+
+  @media only screen and (max-width: 768px) {
+  
+  .grid-container {
+    grid-template-rows: 80px 100px 300px 500px 80px 80px;
+    grid-template-areas:
+                'web web web web web web '
+                'home home about about contact contact'
+                'css css css css css css'
+                ' img img img  img img img '
+                'lorem lorem lorem lorem lorem lorem '
+                'read read read view view view'
+        }
+}
     </style>
 </head>
 <body>
